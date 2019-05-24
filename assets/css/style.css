@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("../images/background.png");
+    background: url(../images/background.png);
     background-size: cover;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -155,6 +155,7 @@ footer p{
     left: 20px;
 }
 
+/* Contact.hmtl specific styles */
 #nameInput p{
     color: #777777;
     margin: 0;
@@ -216,4 +217,31 @@ footer p{
     background-color: #4aaaa5;
     width: 100px;
     height: 30px;  
+}
+
+/* portfolio.html specific styles */
+
+#mainBlockPortfolio{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+}
+
+#mainBlockPortfolio H1{
+    color: #4aaaa5;
+    margin: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#mainBlockPortfolio hr{
+    position: relative;
+    border: none;
+    background-color: #dddddd;
+    height: 2px;
+    width: 95%;
+    margin: auto;
+    color: #777777;
 }
